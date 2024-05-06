@@ -1,18 +1,10 @@
-## Getting Started
+# Hypothetical Pomona Transit System Database Interface
 
-Welcome to the VS Code Java world. Here is a guideline to help you get started to write Java code in Visual Studio Code.
+This is a hypothetical implementation of a rough draft of a transit system. The name Pomona is used arbitrarily, nothing about anything here has anything to do with the city of Pomona.
 
-## Folder Structure
+Assuming your mysql is hosted at jdbc:mysql://127.0.0.1:3306 with the username root and password 1234, this will work
+Otherwise you will encounter errors.
 
-The workspace contains two folders by default, where:
+If so, edit the source code, this program does not prompt for host, username, or password
 
-- `src`: the folder to maintain sources
-- `lib`: the folder to maintain dependencies
-
-Meanwhile, the compiled output files will be generated in the `bin` folder by default.
-
-> If you want to customize the folder structure, open `.vscode/settings.json` and update the related settings there.
-
-## Dependency Management
-
-The `JAVA PROJECTS` view allows you to manage your dependencies. More details can be found [here](https://github.com/microsoft/vscode-java-dependency#manage-dependencies).
+It also randomly generates data, so editing the source code is also the only way to toggle that as of now
